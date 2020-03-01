@@ -1,0 +1,10 @@
+F:\ISABEL VM\WebPeliculasEF-WCF-SOAP\WCFServicePeliculas\bin\Debug\WCFServicePeliculas.dll.config
+F:\ISABEL VM\WebPeliculasEF-WCF-SOAP\WCFServicePeliculas\bin\Debug\WCFServicePeliculas.dll
+F:\ISABEL VM\WebPeliculasEF-WCF-SOAP\WCFServicePeliculas\bin\Debug\WCFServicePeliculas.pdb
+F:\ISABEL VM\WebPeliculasEF-WCF-SOAP\WCFServicePeliculas\bin\Debug\EntityFramework.dll
+F:\ISABEL VM\WebPeliculasEF-WCF-SOAP\WCFServicePeliculas\bin\Debug\EntityFramework.SqlServer.dll
+F:\ISABEL VM\WebPeliculasEF-WCF-SOAP\WCFServicePeliculas\bin\Debug\EntityFramework.xml
+F:\ISABEL VM\WebPeliculasEF-WCF-SOAP\WCFServicePeliculas\bin\Debug\EntityFramework.SqlServer.xml
+F:\ISABEL VM\WebPeliculasEF-WCF-SOAP\WCFServicePeliculas\obj\Debug\WCFServicePeliculas.dll
+F:\ISABEL VM\WebPeliculasEF-WCF-SOAP\WCFServicePeliculas\obj\Debug\WCFServicePeliculas.pdb
+F:\ISABEL VM\WebPeliculasEF-WCF-SOAP\WCFServicePeliculas\obj\Debug\WCFServicePeliculas.csprojResolveAssemblyReference.cache

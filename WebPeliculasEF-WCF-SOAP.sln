@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPeliculasEF-WCF-SOAP", "WebPeliculasEF-WCF-SOAP\WebPeliculasEF-WCF-SOAP.csproj", "{AE47B90A-7FA3-484F-A86C-CCE7F6EA7984}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C29A4C19-BFFE-4CFE-9E8C-DF2B23C33EAB} = {C29A4C19-BFFE-4CFE-9E8C-DF2B23C33EAB}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceWCF", "ServiceWCF", "{855C096D-AA84-4F4E-8096-37E29F11B715}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServicePeliculas", "WCFServicePeliculas\WCFServicePeliculas.csproj", "{C29A4C19-BFFE-4CFE-9E8C-DF2B23C33EAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClienteWCF", "ClienteWCF", "{819DBD91-7CC3-496C-B228-9C6C0077AE98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE47B90A-7FA3-484F-A86C-CCE7F6EA7984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE47B90A-7FA3-484F-A86C-CCE7F6EA7984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE47B90A-7FA3-484F-A86C-CCE7F6EA7984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE47B90A-7FA3-484F-A86C-CCE7F6EA7984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C29A4C19-BFFE-4CFE-9E8C-DF2B23C33EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C29A4C19-BFFE-4CFE-9E8C-DF2B23C33EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C29A4C19-BFFE-4CFE-9E8C-DF2B23C33EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C29A4C19-BFFE-4CFE-9E8C-DF2B23C33EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE47B90A-7FA3-484F-A86C-CCE7F6EA7984} = {819DBD91-7CC3-496C-B228-9C6C0077AE98}
+		{C29A4C19-BFFE-4CFE-9E8C-DF2B23C33EAB} = {855C096D-AA84-4F4E-8096-37E29F11B715}
+	EndGlobalSection
+EndGlobal

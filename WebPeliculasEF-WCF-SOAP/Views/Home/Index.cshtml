@@ -1,0 +1,60 @@
+﻿@model IEnumerable<WCFServicePeliculas.CLases.PeliculaMax>
+
+@{
+    ViewBag.Title = "Imdexx";
+}
+
+<h2>Peliculas</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@if (TempData["msj"] != null)
+{
+    <div class="alert alert-success" id="mensaje">@TempData["msj"]</div>
+}
+<table class="table table-hover">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Año)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaAlta)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GeneroEnt.Descripcion)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Año)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaAlta)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GeneroEnt.Descripcion)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IdPelicula }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IdPelicula }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IdPelicula })
+        </td>
+    </tr>
+}
+</table>
+
+<script>
+        setTimeout(function () {
+            $("#mensaje").fadeOut(3000);
+        },3000);
+</script>
